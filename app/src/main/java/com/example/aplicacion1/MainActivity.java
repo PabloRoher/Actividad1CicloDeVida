@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy(){
-        super.onDestroy();
         Log.d("onDestroy", "Pablo Rodriguez Hernandez");
+        super.onDestroy();
     }
 
 }
